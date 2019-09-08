@@ -1,0 +1,266 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+  letter-spacing: 0.14px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.menu {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between
+}
+.menu__item {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 15px;
+  
+}
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.tel {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.wrapper {
+  border-bottom: solid #f4f4f4 1px;
+}
+
+.company_name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.first {
+  margin-right: 10px;
+}
+
+.wrapper-hero {
+  background-image: url(src/img/hero-bg.jpg);
+  min-height: 610px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.hero {
+  max-width: 50%;
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.description {
+  max-width: 378px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-bottom: 65px;
+}
+
+.btn-alert {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 25px 45px;
+  background-color: #0f0f0f;
+  background-image: linear-gradient(to top, #c10b0b 0%, #e42626 100%);
+}
+
+.service-head {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  display: flex;
+  width: 18%;
+}
+
+.service-img {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 90px;
+}
+
+.about-wrapper {
+  background-image: url(src/img/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.16px;
+}
+
+.title-about {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  margin-bottom: 80px;
+}
+
+.sub-description {
+  margin-bottom: 55px;
+}
+
+.row-about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.option-wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #f5f5f5;
+}
+
+.title-option {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.row-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 0.16px;
+}
+
+.option-card {
+  text-align: center;
+}
+
+.description-option img {
+  margin-bottom: 55px;
+}
+
+.text-sect {
+  max-width: 378px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  /* margin-bottom: 65px; */
+}
+
+.heart {
+  height: 400px;
+}
+.inside {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 45px;
+}
+
+.he {
+  padding-top: 40px;
+}
+
+.head-top {
+  display: flex;
+}
+.main_he {
+  height: 450px;
+  border-radius: 5px;
+  background-color: #808080;
+  padding: 10px;  
+}
+.parameter-main {
+  font-size: 20px;
+}
+.parameter {
+  margin-left: 20px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  flex-basis: 25%;
+  margin-bottom: 50px;
+}
+
+.card__img {
+  height: 430px;
+  border-radius: 5px;
+  background-color: #808080;
+  padding: 10px;
+  align-items: center;
+}
+
+.photo {
+  margin-top: 100px;
+}
